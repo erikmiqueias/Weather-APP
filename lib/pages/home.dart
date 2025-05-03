@@ -52,7 +52,6 @@ class _HomeState extends State<Home> {
         setState(() {
           weatherResponse = data;
         });
-        print(weatherResponse);
         clearTextField();
       } else {
         setState(() {
